@@ -1,0 +1,325 @@
+[
+	{
+		"id": 1,
+		"category": "halsband",
+		"model_name": "Cirkel halskedja",
+		"slug_name": "cirkel-halskedja",
+		"short_description": "En klassisk handgjord silverkedja i återvunnet silver.",
+		"price": "2 995 SEK",
+		"image": "cirkel-halsband.avif",
+		"url": "https://amdesign.se/se/halsband/silverhalsband/cirkel-halsband.html"
+	},
+	{
+		"id": 2,
+		"category": "halsband",
+		"model_name": "Rund slät halsring",
+		"slug_name": "rund-slat-halsring",
+		"short_description": "En bredare rund halsring med en slät polerad finish, elegant.",
+		"price": "1 250 SEK",
+		"image": "rund-slat-halsring.avif",
+		"url": "https://amdesign.se/se/halsband/halsring-silver/rund-slat-halsring.html"
+	},
+	{
+		"id": 3,
+		"category": "halsband",
+		"model_name": "Grönt öga (hängsmycke)",
+		"slug_name": "gront-oga-hange",
+		"short_description": "Ett exklusivt handgjort silverhänge med en grön glassten.",
+		"price": "895 SEK",
+		"image": "gront-oga-hange.avif",
+		"url": "https://amdesign.se/se/alla-smycken/gront-oga-hange.html"
+	},
+	{
+		"id": 4,
+		"category": "halsband",
+		"model_name": "Kobra (hängsmycke)",
+		"slug_name": "kobrahange",
+		"short_description": "Slätt kobrahänge.",
+		"price": "995 SEK",
+		"image": "kobrahange.avif",
+		"url": "https://amdesign.se/se/hangsmycken/kobrahange.html"
+	},
+
+	{
+		"id": 5,
+		"category": "halsband",
+		"model_name": "Bubbelhalsband",
+		"slug_name": "bubbelhalsband",
+		"short_description": "Bubbelhalsbandet dansar som champagnebubblor runt halsen.",
+		"price": "1 250 SEK",
+		"image": "bubbelhalsband.avif",
+		"url": "https://amdesign.se/se/halsband/bubbelhalsband.html"
+	},
+	{
+		"id": 6,
+		"category": "halsband",
+		"model_name": "Rosenkvarts (hängsmycke)",
+		"slug_name": "vriden-rosenkvart-hange",
+		"short_description": "Vackert smycke tillverkat i rosenkvarts och återvunnit silver.",
+		"price": "3 500 SEK",
+		"image": "vriden-rosenkvart-hange.avif",
+		"url": "https://amdesign.se/se/hangsmycken/silverhange/vriden-rosenkvart-hange.html"
+	},
+
+	{
+		"id": 7,
+		"category": "halsband",
+		"model_name": "Stav kedja",
+		"slug_name": "stav-kedja",
+		"short_description": "Klassisk ren silverkedja.",
+		"price": "3 800 SEK",
+		"image": "stav-kedja.avif",
+		"url": "https://amdesign.se/se/halsband/silverhalsband/stav-kedja.html"
+	},
+	{
+		"id": 8,
+		"category": "halsband",
+		"model_name": "Rökkvart (hängsmycke)",
+		"slug_name": "rökkvart-hange",
+		"short_description": "Ett exklusivt och elegant silverhänge med rökkvarts.",
+		"price": "2 495 SEK",
+		"image": "rokkvart-hange.avif",
+		"url": "https://amdesign.se/se/hangsmycken/silverhange/rokkvart-hange.html"
+	},
+	{
+		"id": 9,
+		"category": "ringar",
+		"model_name": "Tulpan",
+		"slug_name": "tulpan-ring",
+		"short_description": "Exklusiv silverring prydd med en vacker labradorit.",
+		"price": "995 SEK",
+		"image": "tulpan-ring.avif",
+		"url": "https://amdesign.se/se/ring/tulpan-ring.html"
+	},
+	{
+		"id": 10,
+		"category": "ringar",
+		"model_name": "Tre silverbubblor",
+		"slug_name": "tre-silverbubblor",
+		"short_description": "Elegant bubbelring med tre silverbubblor i olika storlekar.",
+		"price": "995 SEK",
+		"image": "tre-silverbubblor.avif",
+		"url": "https://amdesign.se/se/ring/tre-silver-bubblor.html"
+	},
+	{
+		"id": 11,
+		"category": "ringar",
+		"model_name": "Rund ebenholtsring",
+		"slug_name": "rund-ebenholtsring",
+		"short_description": "Världens hårdaste träslag och silver.",
+		"price": "850 SEK",
+		"image": "rund-ebenholtsring.avif",
+		"url": "https://amdesign.se/se/ring/rund-ebenholts-ring.html"
+	},
+	{
+		"id": 12,
+		"category": "ringar",
+		"model_name": "Kram",
+		"slug_name": "kram-ring",
+		"short_description": "Enkel tidlös design.",
+		"price": "650 SEK",
+		"image": "kram.avif",
+		"url": "https://amdesign.se/se/ring/kram-ring.html"
+	},
+	{
+		"id": 13,
+		"category": "ringar",
+		"model_name": "Peace",
+		"slug_name": "peace-ring",
+		"short_description": "Hamrad fredsring.",
+		"price": "995 SEK",
+		"image": "peace.avif",
+		"url": "https://amdesign.se/se/ring/peace-1.html"
+	},
+	{
+		"id": 14,
+		"category": "ringar",
+		"model_name": "Rosett",
+		"slug_name": "rosett-ring",
+		"short_description": "Ställbar statement-ring.",
+		"price": "1650 SEK",
+		"image": "rosett.avif",
+		"url": "https://amdesign.se/se/ring-1/rosett-ring-med-aqua-marin.html"
+	},
+	{
+		"id": 15,
+		"category": "ringar",
+		"model_name": "Blått öga",
+		"slug_name": "blatt-oga",
+		"short_description": "Silverring med blått glas.",
+		"price": "895 SEK",
+		"image": "blatt-oga.avif",
+		"url": "https://amdesign.se/se/ring/silverring/blatt-oga-ring.html"
+	},
+	{
+		"id": 16,
+		"category": "ringar",
+		"model_name": "Ögat",
+		"slug_name": "ogat-ring",
+		"short_description": "En stilren ring, inspirerad av det allseende, skyddande ögat.",
+		"price": "850 SEK",
+		"image": "ogat.avif",
+		"url": "https://amdesign.se/se/ring/silverring/ogat-ring.html"
+	},
+	{
+		"id": 17,
+		"category": "armband",
+		"model_name": "Cirkel",
+		"slug_name": "cirkel-armband",
+		"short_description": "Ett handgjort silverarmband i återvunnet silver.",
+		"price": "1 495 SEK",
+		"image": "cirkel.avif",
+		"url": "https://amdesign.se/se/armband/cirkel-armband.html"
+	},
+	{
+		"id": 18,
+		"category": "armband",
+		"model_name": "Double reversible",
+		"slug_name": "double-reversible",
+		"short_description": "Elegant med edge.",
+		"price": "3 295 SEK",
+		"image": "double-reversible.avif",
+		"url": "https://amdesign.se/se/armband/silverarmband/dubbelt-reversible-armband.html"
+	},
+	{
+		"id": 19,
+		"category": "armband",
+		"model_name": "New York",
+		"slug_name": "new-york",
+		"short_description": "Lite bredare, lite mer edge i återvunnet silver.",
+		"price": "4 200 SEK",
+		"image": "new-york.avif",
+		"url": "https://amdesign.se/se/armband/armring-silver/new-york-armring.html"
+	},
+	{
+		"id": 20,
+		"category": "armband",
+		"model_name": "Höga kusten",
+		"slug_name": "hoga-kusten",
+		"short_description": "Unik, tidslös armring.",
+		"price": "1 795 SEK",
+		"image": "hoga-kusten.avif",
+		"url": "https://amdesign.se/se/armband/armring-silver/hoga-kusten-armring.html"
+	},
+	{
+		"id": 21,
+		"category": "armband",
+		"model_name": "Tre rader kulor",
+		"slug_name": "tre-rader-kulor",
+		"short_description": "Exklusivt armband i modern stil.",
+		"price": "2 495 SEK",
+		"image": "tre-rader-kulor.avif",
+		"url": "https://amdesign.se/se/armband/armring-silver/tre-rader-kulor.html"
+	},
+	{
+		"id": 22,
+		"category": "armband",
+		"model_name": "Slät armring",
+		"slug_name": "slat-armring",
+		"short_description": "Elegant och tidlöst silverarmband.",
+		"price": "1 795 SEK",
+		"image": "slat-armring.avif",
+		"url": "https://amdesign.se/se/armband/armring-silver/slat-armring-2.html"
+	},
+	{
+		"id": 23,
+		"category": "armband",
+		"model_name": "Fjäril",
+		"slug_name": "fjaril-armring",
+		"short_description": "Stilrent armband med vacker sten.",
+		"price": "4 500 SEK",
+		"image": "fjaril-armring.avif",
+		"url": "https://amdesign.se/se/armband/armring-silver/fjaril-armring.html"
+	},
+	{
+		"id": 24,
+		"category": "armband",
+		"model_name": "Lotus",
+		"slug_name": "lotus-armring",
+		"short_description": "Unikt silverarmband med fina detaljer.",
+		"price": "5 500 SEK",
+		"image": "lotus.avif",
+		"url": "https://amdesign.se/se/armband/armring-silver/lotusarmring.html"
+	},
+	{
+		"id": 25,
+		"category": "orhangen",
+		"model_name": "Free-flowing",
+		"slug_name": "free-flowing",
+		"short_description": "Stilrena örhängen med modern design.",
+		"price": "750 SEK",
+		"image": "free-flowing.avif",
+		"url": "https://amdesign.se/se/orhangen/orhange/free-flowing.html"
+	},
+	{
+		"id": 26,
+		"category": "orhangen",
+		"model_name": "Stavcirkel",
+		"slug_name": "stavcirkel",
+		"short_description": "Stilrena örhängen för en sofistikerad look.",
+		"price": "750 SEK",
+		"image": "stavcirkel.avif",
+		"url": "https://amdesign.se/se/orhangen/orhange/stavcirkel.html"
+	},
+	{
+		"id": 27,
+		"category": "orhangen",
+		"model_name": "Dancing copper",
+		"slug_name": "dancing-copper",
+		"short_description": "Lätta, tidslösa örhängen.",
+		"price": "750 SEK",
+		"image": "dancing-copper.avif",
+		"url": "https://amdesign.se/se/orhangen/orhange/dancing-copper-bal.html"
+	},
+	{
+		"id": 28,
+		"category": "orhangen",
+		"model_name": "Kul kreoler",
+		"slug_name": "kul-kreoler",
+		"short_description": "Glänsande silverkulor mot oxiderad botten.",
+		"price": "750 SEK",
+		"image": "kul-kreoler.avif",
+		"url": "https://amdesign.se/se/orhangen/kul-kreoler.html"
+	},
+	{
+		"id": 29,
+		"category": "orhangen",
+		"model_name": "Gröna glas",
+		"slug_name": "grona-glas",
+		"short_description": "Små silverörhängen med grön glasdetalj.",
+		"price": "750 SEK",
+		"image": "grona-glas.avif",
+		"url": "https://amdesign.se/se/alla-smycken/alla-smycken/grona-glas-orhangen.html"
+	},
+
+	{
+		"id": 30,
+		"category": "orhangen",
+		"model_name": "Pärlemor",
+		"slug_name": "parlemor-orhangen",
+		"short_description": "Eleganta örhängden med rund pärlemorskiva.",
+		"price": "750 SEK",
+		"image": "parlemor.avif",
+		"url": "https://amdesign.se/se/orhangen/parlemor-orhangen.html"
+	},
+	{
+		"id": 31,
+		"category": "orhangen",
+		"model_name": "Bubbla",
+		"slug_name": "bubbla",
+		"short_description": "Klassiska och eleganta.",
+		"price": "350 SEK",
+		"image": "bubbla.avif",
+		"url": "https://amdesign.se/se/orhangen/bubbla.html"
+	},
+	{
+		"id": 32,
+		"category": "orhangen",
+		"model_name": "Pendel",
+		"slug_name": "pendel-ebenholts",
+		"short_description": "Spiral och svängande pendel.",
+		"price": "1 250 SEK",
+		"image": "pendel-ebenholts.avif",
+		"url": "https://amdesign.se/se/orhangen/pendel-ebenholts-orhange.html"
+	}
+]

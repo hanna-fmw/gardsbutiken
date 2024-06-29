@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"name": "ringar",
+		"description": "Vackert utformade ringar i olika designer.",
+		"image": "category_rings.avif"
+	},
+	{
+		"id": 2,
+		"name": "halsband",
+		"description": "Eleganta halsband som förhöjer varje outfit.",
+		"image": "category_necklaces.avif"
+	},
+	{
+		"id": 3,
+		"name": "armband",
+		"description": "Stilfulla armband för varje tillfälle.",
+		"image": "category_bracelets.avif"
+	},
+	{
+		"id": 4,
+		"name": "orhangen",
+		"description": "Charmiga örhängen med en elegant touch.",
+		"image": "category_earrings.avif"
+	}
+]
