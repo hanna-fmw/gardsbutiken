@@ -141,9 +141,13 @@ const Home = () => {
 								<p
 									className='flex items-center text-sm gap-3 font-light'
 									style={{ transform: 'translateY(25%)' }}>
-									<Link href='/'>www.ullajacobssondesign.se</Link>{' '}
+									<Link href='/' className='hover:font-medium'>
+										www.ullajacobssondesign.se
+									</Link>{' '}
 									<span className='inline-block h-[6px] w-[6px] rounded-full bg-[#333]'></span>{' '}
-									<Link href='mailto:ulla@ullajacobssondesign.se'>ulla@ullajacobssondesign.se</Link>
+									<Link href='mailto:ulla@ullajacobssondesign.se' className='hover:font-medium'>
+										ulla@ullajacobssondesign.se
+									</Link>
 								</p>
 							</section>
 						</div>
