@@ -8,13 +8,8 @@ import { IoMail } from 'react-icons/io5'
 const Navbar = () => {
 	return (
 		<div
-			className='w-screen flex justify-between items-center px-[20px] md:px-[70px] h-20 md:h-14'
+			className='w-screen flex justify-between items-center px-[20px] md:px-[70px] h-20 md:h-14 z-50 absolute top-0 left-0'
 			style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-			{/* <Link
-				href='/'
-				className='cursor-pointer font-semibold text-navbar-link-color hover:text-navbar-link-hover-color'>
-				<IoMdGlobe size={25} />
-			</Link> */}
 			<div className='hidden md:block'></div>
 
 			<nav className='flex gap-6 items-center'>
