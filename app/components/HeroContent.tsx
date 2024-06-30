@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 type Props = {
@@ -8,18 +9,23 @@ type Props = {
 	h1Height?: string
 	text?: string
 	position?: string
+	logo?: boolean
 }
 
-const HeroContent = ({ title, titleMd, subheading, subheadingMd, text, position }: Props) => {
+const HeroContent = ({
+	title,
+	titleMd,
+	subheading,
+	subheadingMd,
+	text,
+	position,
+	logo = false,
+}: Props) => {
 	return (
 		<div className={`absolute ${position}`}>
 			<div className='md:hidden'>
-				<h1 className='overflow-hidden font-lora z-10 text-hero-content-color text-center text-lg'>
-					{title}
-				</h1>
-				<p className='font-lora z-10 mb-0 text-hero-content-color text-center text-xs'>
-					{subheading}
-				</p>
+				<h1 className='overflow-hidden font-lora z-10 text-[#fff] text-center text-lg'>{title}</h1>
+				<p className='font-lora z-10 mb-0 text-[#fff] text-center text-xs'>{subheading}</p>
 			</div>
 			<div className='hidden md:block'>
 				<h1 className='overflow-hidden font-lora z-10 text-hero-content-color text-center md:font-normal md:text-3xl'>
@@ -36,6 +42,17 @@ const HeroContent = ({ title, titleMd, subheading, subheadingMd, text, position 
 					{text}
 				</a>
 			</p>
+			{logo && (
+				<div className='z-10 flex justify-center'>
+					<Image
+						src='/images/amdesign-logo.png'
+						alt='AM Design Logo'
+						width={20}
+						height={20}
+						className='w-6 h-6 rounded-full filter brightness-95'
+					/>
+				</div>
+			)}
 		</div>
 	)
 }

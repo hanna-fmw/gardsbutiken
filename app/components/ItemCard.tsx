@@ -18,7 +18,7 @@ type Props = {
 
 const ItemCard = ({ item }: Props) => {
 	return (
-		<section className='bg-[#fafafa] mt-2 md:w-[19vw] rounded-md mb-6 flex flex-col shadow-md'>
+		<section className='cursor-pointer bg-white mt-2 md:w-[19vw] rounded-md md:mb-6 flex flex-col'>
 			<div className='relative'>
 				<a href={item.url} className='cursor-pointer'>
 					<Image

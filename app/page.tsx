@@ -20,14 +20,15 @@ const Home = () => {
 						left: 0,
 						right: 0,
 						bottom: 0,
-						backgroundColor: 'rgba(0, 0, 0, 0.3)',
+						backgroundColor: 'rgba(0, 0, 0, 0.4)',
 						zIndex: 10,
 					}}></div>
 				<HeroContent
-					position='top-[30%] px-16 md:top-[25%] md:left-8 md:w-1/2 lg:w-1/3 z-20'
+					position='top-[20%] px-16 md:top-[25%] md:left-8 md:w-1/2 lg:w-1/3 z-20'
 					titleMd='Välkommen till Gårdsbutiken'
 					title='Välkommen till Gårdsbutiken på Stenegård'
 					subheadingMd='Unika smycken och handplockade konsthantverk i Stenegårds kulturmiljö'
+					logo={true}
 				/>
 			</section>
 
