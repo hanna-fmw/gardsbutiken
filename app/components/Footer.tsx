@@ -11,9 +11,7 @@ const Footer = () => {
 						<Link href='mailto:info@amdesign.se'>info@amdesign.se</Link>
 					</p>
 					<p>
-						<a href='https://amdesign.se' target='_blank' rel='noopener noreferrer'>
-							www.amdesign.se
-						</a>
+						<a href='https://amdesign.se'>www.amdesign.se</a>
 					</p>
 					<p className='text-xs mb-0'>070-320&nbsp;46&nbsp;74</p>
 				</div>

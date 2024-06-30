@@ -24,8 +24,6 @@ const HeroContent = ({ title, subheading, text, position }: Props) => {
 			<p className='text-center z-10 text-hero-content-color'>
 				<a
 					href='https://amdesign.se/'
-					target='_blank'
-					rel='noopener noreferrer'
 					className={`cursor-pointer font-lora text-hero-content-color text-center underline underline-offset-2`}>
 					{text}
 				</a>
