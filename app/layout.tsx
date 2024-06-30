@@ -21,7 +21,7 @@ const leage_spartan = League_Spartan({
 export const metadata: Metadata = {
 	title: 'Unika handgjorda silversmycken och konsthantverk i Järvsö - Gårdsbutiken Stenegård',
 	description:
-		'Upptäck Gårdsbutiken i Stenegård, Järvsö - En skattkammare med handgjorda silversmycken designade av Anna-Maria Öberg för AM Design, unika konsthantverk, textilier, och kläder från Ulla Jacobsson Design. Shoppa online eller besök oss för en inspirerande upplevelse.',
+		'Upptäck Gårdsbutiken i Stenegård, Järvsö - En skattkammare med handgjorda silversmycken designade av AnnaMaria Öberg för AM Design, unika konsthantverk, textilier, och kläder från Ulla Jacobsson Design. Shoppa online eller besök oss för en inspirerande upplevelse.',
 }
 
 export default function RootLayout({

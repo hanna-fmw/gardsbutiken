@@ -63,9 +63,7 @@ export default function CategoryPage({ params: { category } }: Props) {
 			</section>
 			<section className='bg-navbar-link-hover-color pt-10 pb-14 md:pb-20'>
 				<section className='mx-auto font-lora w-[90vw] md:w-[80vw]'>
-					<h3 className='font-medium text-base md:text-xl md:mt-10'>
-						Design av Anna-Maria Silverdesign
-					</h3>
+					<h3 className='font-medium text-base md:text-xl md:mt-10'>Design av AM Design</h3>
 					<p className='text-xs sm:text-sm'>
 						Detta är endast ett urval. Fler smycken finns på Gårdsbutiken och i{' '}
 						<a

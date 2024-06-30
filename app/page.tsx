@@ -38,7 +38,7 @@ const Home = () => {
 					<p className='text-xs sm:text-sm'>
 						Välkommen till Gårdsbutiken, en oas av kreativitet och skönhet belägen på Stenegård i
 						Järvsö – en plats rik på kultur och tradition. I vår charmiga gårdsbutik möts du av
-						värmen från vår ägare Anna-Maria, vars passion för design lyser igenom i varje detalj.
+						värmen från vår ägare AnnaMaria, vars passion för design lyser igenom i varje detalj.
 					</p>
 					<p className='text-xs sm:text-sm'>
 						På Gårdsbutiken är vår ambition att du ska finna något som tilltalar just dig. Besök oss
@@ -46,7 +46,7 @@ const Home = () => {
 						möter nytänkande.
 					</p>
 					<p className='text-xs sm:text-sm'>
-						I hjärtat av vårt utbud står Anna-Marias egenkollektion av silver smycken. Varje ring,
+						I hjärtat av vårt utbud står AnnaMarias egenkollektion av silver smycken. Varje ring,
 						halsband, armband och örhänge är designat med en unik känsla för stil och skönhet.
 						Smyckena tillverkas exklusivt för Gårdsbutiken av noggrant utvalda hantverkare i Mexikos
 						landsbygd, vilket garanterar en exceptionell kvalitet och originalitet.
@@ -58,9 +58,8 @@ const Home = () => {
 					</p>
 
 					<p className='text-xs sm:text-sm'>
-						Modeentusiaster kan glädja sig åt vårt samarbete med den välkända lokala designern Ulla
-						Jacobsson. Hennes kollektion Ulla Jacobsson Design finns tillgänglig här hos oss, och
-						erbjuder kläder som kombinerar traditionellt hantverk med modern design.
+						Vi har också ett fint samarbete med den lokala designern Ulla Jacobsson och ni hittar
+						ett urval av hennes kläder i kollektionen Ulla Jacobsson Design hos oss.
 					</p>
 					<p className='text-xs sm:text-sm'>
 						Missa inte heller chansen att utforska andra våningen där vi samlar unika fynd från
@@ -71,11 +70,11 @@ const Home = () => {
 				<div>
 					<p className='text-xs sm:text-sm'>
 						Välkommen till Gårdsbutiken på Stenegård i Järvsö, där kultur möter kreativitet. Ägaren
-						Anna-Marias passion för design genomsyrar allt.
+						AnnaMarias passion för design genomsyrar allt.
 					</p>
 					<p className='text-xs sm:text-sm'>
-						Upptäck Anna-Marias unika silverkollektion och vårt utbud av konsthantverk, textilier
-						och keramik. Allt är noga utvalt för högsta kvalitet.
+						Upptäck AnnaMarias unika silverkollektion och vårt utbud av konsthantverk, textilier och
+						keramik. Allt är noga utvalt för högsta kvalitet.
 					</p>
 					<p className='text-xs sm:text-sm'>
 						Vi samarbetar med designern Ulla Jacobsson, vars kollektion finns här och erbjuder en
@@ -96,7 +95,7 @@ const Home = () => {
 						/>
 					</span>
 					<div className='flex flex-col'>
-						<span className='inline-block text-xs lg:text-sm'>Anna-Maria Öberg</span>
+						<span className='inline-block text-xs lg:text-sm'>AnnaMaria Öberg</span>
 						<a href='mailto:info@amdesign.se' className='text-xs mb-1 block lg:text-sm'>
 							info@amdesign.se
 						</a>
