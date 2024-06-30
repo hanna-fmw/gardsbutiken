@@ -7,29 +7,35 @@ const Footer = () => {
 			<section className='w-full py-16 grid grid-cols-3 font-lora text-white justify-center'>
 				<div className='mx-auto'>
 					<h2 className='font-medium text-xs md:text-base'>Kontakt</h2>
-					<p className='text-xs mb-0'>
-						<Link href='mailto:info@amdesign.se'>info@amdesign.se</Link>
+					<p className='text-xs mb-1'>
+						<a href='mailto:info@amdesign.se' className='text-xs mb-1 block'>
+							info@amdesign.se
+						</a>
 					</p>
-					<p>
-						<a href='https://amdesign.se'>www.amdesign.se</a>
+
+					<p className='text-xs mb-1'>
+						<a href='https://amdesign.se' className='text-xs mb-1 block'>
+							www.amdesign.se
+						</a>
 					</p>
-					<p className='text-xs mb-0'>070-320&nbsp;46&nbsp;74</p>
+
+					<p className='text-xs mb-1'>070-320&nbsp;46&nbsp;74</p>
 				</div>
 				<div className='mx-auto'>
 					<h2 className='font-medium text-xs md:text-base'>Adress</h2>
 					<div className='flex flex-col gap-2'>
-						<p className='text-xs mb-0'>AnnaMaria Silverdesign</p>
-						<p className='text-xs mb-0'>Gårdsbutiken, Stenegård</p>
-						<p className='text-xs mb-0'>827&nbsp;54&nbsp;Järvsö</p>
+						<p className='text-xs mb-1'>AnnaMaria Silverdesign</p>
+						<p className='text-xs mb-1'>Gårdsbutiken, Stenegård</p>
+						<p className='text-xs mb-1'>827&nbsp;54&nbsp;Järvsö</p>
 					</div>
 				</div>
 				<div className='mx-auto'>
 					<h2 className='font-medium text-xs md:text-base'>Sociala Medier</h2>
 					<div className='flex flex-col gap-1'>
-						<p className='text-xs mb-0'>
+						<p className='text-xs mb-1'>
 							<Link href='/'>Facebook</Link>
 						</p>
-						<p className='text-xs mb-0'>
+						<p className='text-xs mb-1'>
 							<Link href='/'>Instagram</Link>
 						</p>
 					</div>

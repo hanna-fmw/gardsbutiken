@@ -18,17 +18,21 @@ const Navbar = () => {
 					className='font-lora text-sm md:text-sm text-navbar-link-color hover:text-navbar-link-hover-color'>
 					<FaHome size={15} />
 				</Link>
-				<Link href='/' className='text-navbar-link-color hover:text-navbar-link-hover-color'>
+				<a
+					href='https://www.facebook.com/designbyam.se/?locale=sv_SE'
+					className='text-navbar-link-color hover:text-navbar-link-hover-color'>
 					<FaFacebook size={15} />
-				</Link>
-				<Link href='/' className='text-navbar-link-color hover:text-navbar-link-hover-color'>
+				</a>
+				<a
+					href='https://www.instagram.com/gardsbutiken_stenegard?igsh=MXh2bm1iMm5tMzllOA=='
+					className='text-navbar-link-color hover:text-navbar-link-hover-color'>
 					<FaInstagram size={15} fill='#fff' color='#fff' />
-				</Link>
-				<Link
+				</a>
+				<a
 					href='mailto:info@amdesign.se'
 					className='text-navbar-link-color hover:text-navbar-link-hover-color'>
 					<IoMail size={15} fill='#fff' color='#fff' />
-				</Link>
+				</a>
 			</nav>
 		</div>
 	)

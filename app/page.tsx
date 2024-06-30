@@ -140,9 +140,9 @@ const Home = () => {
 										www.ullajacobssondesign.se
 									</Link>{' '}
 									<span className='inline-block h-[6px] w-[6px] rounded-full bg-[#333]'></span>{' '} */}
-									<Link href='mailto:ulla@ullajacobssondesign.se' className='hover:font-medium'>
+									<a href='mailto:ulla@ullajacobssondesign.se' className='hover:font-medium'>
 										ulla@ullajacobssondesign.se
-									</Link>
+									</a>
 								</p>
 							</section>
 						</div>
