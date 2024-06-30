@@ -217,7 +217,7 @@ const Home = () => {
 						</div>
 						<div>
 							<Image
-								src='/images/auction/auction.jpg'
+								src='/images/auction/second-hand.jpg'
 								alt='profile'
 								width={200}
 								height={200}
