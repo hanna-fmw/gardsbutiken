@@ -132,7 +132,7 @@ const Home = () => {
 						right: 0,
 						bottom: 0,
 						backgroundColor: 'rgba(0, 0, 0, 0.4)',
-						backdropFilter: 'blur(1px)',
+						backdropFilter: 'blur(3px)',
 						zIndex: 1,
 					}}></div>
 				<HeroContent
@@ -150,8 +150,8 @@ const Home = () => {
 					<div className='md:grid md:grid-cols-2 md:gap-10 lg:gap-4'>
 						<div>
 							<p className='text-xs sm:text-sm'>
-								På Gårdsbutiken är vi stolta över vårt samarbete med den välkända lokala designern
-								Ulla Jacobsson. Hennes kollektion, Ulla Jacobsson Design, är en hyllning till det
+								På Gårdsbutiken är vi stolta över vårt samarbete med den lokala designern Ulla
+								Jacobsson. Hennes kollektion, Ulla Jacobsson Design, är en hyllning till det
 								traditionella hantverket kombinerat med modern design. Varje plagg i hennes
 								kollektion reflekterar hennes passion för kvalitet och estetik, vilket gör dem både
 								tidlösa och aktuella.
