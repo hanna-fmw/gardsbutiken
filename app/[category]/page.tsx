@@ -37,7 +37,7 @@ export default function CategoryPage({ params: { category } }: Props) {
 					backgroundPosition: 'center',
 					backgroundRepeat: 'no-repeat',
 				}}
-				className='relative w-screen min-w-full h-[60vh]'>
+				className='relative w-screen min-w-full h-[60vh] sm:h-[70vh] md:h[60vh]'>
 				<Navbar />
 				<div
 					style={{
@@ -57,7 +57,7 @@ export default function CategoryPage({ params: { category } }: Props) {
 							? 'Örhängen'
 							: category.charAt(0).toUpperCase() + category.slice(1).toLowerCase()
 					}
-					subheading='Smycken för människor som går sin egen väg.'
+					subheadingText='Smycken för människor som går sin egen väg.'
 					logo={true}
 				/>
 			</section>

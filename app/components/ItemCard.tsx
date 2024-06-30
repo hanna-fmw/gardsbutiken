@@ -26,7 +26,7 @@ const ItemCard = ({ item }: Props) => {
 						alt='Bild av smycke'
 						width={250}
 						height={200}
-						className='object-cover h-[30vh] md:w-full md:h-[40vh]'
+						className='object-cover h-[30vh] md:w-full sm:h-[40vh] md:h-[40vh]'
 					/>
 				</a>
 			</div>

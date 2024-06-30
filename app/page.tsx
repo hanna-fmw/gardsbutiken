@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<main>
 			<section
-				className='w-screen min-w-full h-[65vh] mb-10 md:h-[70vh] bg-hero-bg bg-center relative mb:mb-20'
+				className='w-screen min-w-full h-[65vh] mb-10 sm:h-[75vh] md:h-[70vh] bg-hero-bg bg-center relative mb:mb-20'
 				style={{ backgroundSize: 'cover' }}>
 				<Navbar />
 				<div
@@ -24,18 +24,16 @@ const Home = () => {
 						zIndex: 10,
 					}}></div>
 				<HeroContent
-					position='top-[20%] px-16 md:top-[25%] md:left-8 md:w-1/2 lg:w-1/3 z-20'
+					position='top-[20%] px-16 md:top-[25%] md:w-1/2 lg:w-1/3 lg:left-8 z-20'
 					titleMd='Välkommen till Gårdsbutiken'
 					title='Välkommen till Gårdsbutiken på Stenegård'
-					subheadingMd='Unika smycken och handplockade konsthantverk i Stenegårds kulturmiljö'
+					subheadingMdText='Unika smycken och handplockade konsthantverk i Stenegårds kulturmiljö'
 					logo={true}
 				/>
 			</section>
 
-			<section className='mx-auto font-lora mt-10 mb-14 w-[80vw] md:w-[60vw] md:my-20'>
-				<h2 className='font-medium text-base sm:text-xl md:text-xl'>
-					Om Gårdsbutiken på Stenegård
-				</h2>
+			<section className='mx-auto font-lora mt-6 mb-10 lg:mt-10 lg:mb-14 w-[80vw] md:w-[70vw] lg:w-[60vw] md:my-20'>
+				<h2 className='font-medium text-base md:text-xl'>Om Gårdsbutiken på Stenegård</h2>
 				<div className='hidden md:block'>
 					<p className='text-xs sm:text-sm'>
 						Välkommen till Gårdsbutiken, en oas av kreativitet och skönhet belägen på Stenegård i
@@ -106,9 +104,9 @@ const Home = () => {
 				</div>
 			</section>
 
-			<section className='bg-navbar-link-hover-color pt-10 pb-14 md:pb-20'>
-				<section className='mx-auto font-lora w-[90vw] md:w-[80vw]'>
-					<h2 className='font-medium text-base sm:text-xl md:text-xl'>AM Design</h2>
+			<section className='bg-navbar-link-hover-color pt-6 pb-14 md:pt-10 md:pb-20'>
+				<section className='mx-auto font-lora w-[90vw] sm:w-[65vw] md:w-[80vw] lg:w-[80vw]'>
+					<h2 className='font-medium text-base md:text-xl'>AM Design</h2>
 					<p className='text-xs sm:text-sm'>
 						AM Design är silversmeden Maria Öbergs varumärke där hon säljer sina unika silververk.
 						Klicka på kategorierna nedan för att se ett representativt urval, och klicka dig gärna
@@ -116,7 +114,7 @@ const Home = () => {
 						mer att upptäcka i Gårdsbutiken.
 					</p>
 
-					<div className='grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4'>
+					<div className='grid gap-2 grid-cols-2 md:mx-auto md:w-[70vw] md:grid-cols-2 md:gap-x-2 lg:grid-cols-4 lg:w-[80vw] lg:gap-2'>
 						{categories.map((category) => {
 							return <CategoryCard key={category.name} category={category} />
 						})}
@@ -125,7 +123,7 @@ const Home = () => {
 			</section>
 
 			<section
-				className='w-screen min-w-full h-[65vh] md:h-[85vh] bg-cta-bg bg-top relative md:mb-20'
+				className='w-screen min-w-full h-[80vh] md:h-[85vh] bg-cta-bg bg-top relative md:mb-20'
 				style={{ backgroundSize: 'cover', position: 'relative' }}>
 				<div
 					style={{
@@ -139,18 +137,18 @@ const Home = () => {
 						zIndex: 1,
 					}}></div>
 				<HeroContent
-					position='top-[30%] right-8 md:right-36 w-[40%] md:w-1/3 z-50'
+					position='top-[30%] right-4 w-[60%] md:right-36 w-[40%] md:w-1/3 z-50'
 					title='AM Design'
-					subheading='Smycken för människor som går sin egen väg.'
+					subheadingText='Smycken för människor som går sin egen väg.'
 					text='amdesign.se'
 				/>
 			</section>
 
-			<section className='mt-12 mb-14 md:my-24'>
+			<section className='mt-12 mb-14 md:my-20 lg:my-24'>
 				<div className='mx-auto font-lora w-[80vw]'>
-					<h2 className='font-medium text-base sm:text-xl md:text-xl'>Ulla Jacobsson Design</h2>
+					<h2 className='font-medium text-base md:text-xl'>Ulla Jacobsson Design</h2>
 
-					<div className='md:grid md:grid-cols-2 md:gap-4'>
+					<div className='md:grid md:grid-cols-2 md:gap-10 lg:gap-4'>
 						<div>
 							<p className='text-xs sm:text-sm'>
 								På Gårdsbutiken är vi stolta över vårt samarbete med den välkända lokala designern
@@ -159,7 +157,7 @@ const Home = () => {
 								kollektion reflekterar hennes passion för kvalitet och estetik, vilket gör dem både
 								tidlösa och aktuella.
 							</p>
-							<section className='w-full h-[8vh] text-sm flex items-center'>
+							<section className='w-full h-[8vh] text-sm flex items-center mb-4'>
 								<p
 									className='flex items-center font-medium text-xs md:font-normal md:text-sm gap-3'
 									style={{ transform: 'translateY(25%)' }}>
@@ -173,7 +171,7 @@ const Home = () => {
 								</p>
 							</section>
 						</div>
-						<div className='flex justify-between gap-2 md:w-[25vw] md:grid md:grid-cols-2 md:gap-4'>
+						<div className='flex justify-between gap-2 sm:w-[35vw] lg:w-[25vw] md:grid md:grid-cols-2 md:gap-4'>
 							<Image
 								src='/images/UJD/hero-fabric.jpg'
 								alt='profile'
@@ -196,12 +194,14 @@ const Home = () => {
 
 			<section className='pt-6 pb-10 md:pt-10 md:pb-14 bg-navbar-link-hover-color'>
 				<div className='mx-auto font-lora w-[80vw]'>
-					<h2 className='font-medium text-base sm:text-xl md:text-xl'>Hantverk och second hand</h2>
+					<h2 className='font-medium text-base sm:text-xl md:text-xl md:mb-6'>
+						Hantverk och second hand
+					</h2>
 					<div className='md:grid md:grid-cols-2 md:gap-8'>
 						<div className='mb-8'>
 							<Image
 								src='/images/arts_and_crafts/ceramics.jpg'
-								alt='profile'
+								alt='Bild på hantverk'
 								width={200}
 								height={200}
 								className='w-full h-[45vh] rounded-md object-cover'
@@ -218,7 +218,7 @@ const Home = () => {
 						<div>
 							<Image
 								src='/images/auction/second-hand.jpg'
-								alt='profile'
+								alt='Bild på second hand'
 								width={200}
 								height={200}
 								className='w-full h-[45vh] rounded-md object-cover'

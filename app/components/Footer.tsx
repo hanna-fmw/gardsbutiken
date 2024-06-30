@@ -38,7 +38,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</section>
-			<section className='pb-8 w-[90vw] mt-[1.5rem] gap-6 flex justify-center sm:hidden'>
+			<section className='pb-8 w-[90vw] mt-[1.5rem] gap-6 flex justify-center md:hidden'>
 				<a
 					href='https://www.facebook.com/designbyam.se/?locale=sv_SE'
 					className='text-navbar-link-color hover:text-navbar-link-hover-color'>
