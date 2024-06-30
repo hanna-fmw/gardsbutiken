@@ -21,13 +21,15 @@ const ItemCard = ({ item }: Props) => {
 	return (
 		<section className='bg-[#fafafa] mt-2 md:w-[19vw] rounded-md mb-6 flex flex-col'>
 			<div className='relative'>
-				<Image
-					src={`/images/silver/${item.category}/${item.image}`}
-					alt='Bild av smycke'
-					width={250}
-					height={200}
-					className='object-cover h-[30vh] md:w-full md:h-[40vh]'
-				/>
+				<a href={item.url} className='cursor-pointer'>
+					<Image
+						src={`/images/silver/${item.category}/${item.image}`}
+						alt='Bild av smycke'
+						width={250}
+						height={200}
+						className='object-cover h-[30vh] md:w-full md:h-[40vh]'
+					/>
+				</a>
 			</div>
 			<div className='px-2 flex-grow flex flex-col justify-between'>
 				<div>
@@ -38,11 +40,7 @@ const ItemCard = ({ item }: Props) => {
 					<p className='text-xs'>{item.short_description}</p>
 				</div>
 				<p className='text-xs mt-2'>
-					<a
-						href={item.url}
-						target='_blank'
-						rel='noopener noreferrer'
-						className='hover:underline hover:underline-offset-2'>
+					<a href={item.url} className='hover:underline hover:underline-offset-2'>
 						<span className='mr-2 underline underline-offset-2'>Läs mer och handla</span>
 						<GoArrowRight className='inline-block' />
 					</a>
