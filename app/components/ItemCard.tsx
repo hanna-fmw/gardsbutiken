@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { GoArrowRight } from 'react-icons/go'
 
 type Props = {
@@ -19,7 +18,7 @@ type Props = {
 
 const ItemCard = ({ item }: Props) => {
 	return (
-		<section className='bg-[#fafafa] mt-2 md:w-[19vw] rounded-md mb-6 flex flex-col'>
+		<section className='bg-[#fafafa] mt-2 md:w-[19vw] rounded-md mb-6 flex flex-col shadow-md'>
 			<div className='relative'>
 				<a href={item.url} className='cursor-pointer'>
 					<Image
