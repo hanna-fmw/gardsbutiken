@@ -56,13 +56,13 @@ export default function CategoryPage({ params: { category } }: Props) {
 				</h3>
 				<p>
 					Detta är endast ett urval. Fler smycken finns på Gårdsbutiken och i{' '}
-					<Link
+					<a
 						href='https://amdesign.se'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='hover:font-medium underline underline-offset-2 text-[#838D71]'>
 						onlinebutiken
-					</Link>
+					</a>
 					.
 				</p>
 				{category === 'ringar' ? (
@@ -96,9 +96,9 @@ export default function CategoryPage({ params: { category } }: Props) {
 				) : (
 					<p className='text-xs sm:text-sm'>
 						Du hittar hela sortimentet av smycken på{' '}
-						<Link href='https://amdesign.se' target='_blank' rel='noopener noreferrer'>
+						<a href='https://amdesign.se' target='_blank' rel='noopener noreferrer'>
 							www.amdesign.se
-						</Link>
+						</a>
 						.
 					</p>
 				)}

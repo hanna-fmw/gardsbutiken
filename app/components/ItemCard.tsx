@@ -3,7 +3,6 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { GoArrowRight } from 'react-icons/go'
-import { useRouter } from 'next/navigation'
 
 type Props = {
 	item: {
@@ -19,11 +18,8 @@ type Props = {
 }
 
 const ItemCard = ({ item }: Props) => {
-	const router = useRouter()
 	return (
-		<section
-			onClick={() => router.push(`/${item.url}`)}
-			className='cursor-pointer bg-[#fafafa] mt-2 md:w-[19vw] rounded-md mb-6 flex flex-col'>
+		<section className='bg-[#fafafa] mt-2 md:w-[19vw] rounded-md mb-6 flex flex-col'>
 			<div className='relative'>
 				<Image
 					src={`/images/silver/${item.category}/${item.image}`}
@@ -42,10 +38,14 @@ const ItemCard = ({ item }: Props) => {
 					<p className='text-xs'>{item.short_description}</p>
 				</div>
 				<p className='text-xs mt-2'>
-					<Link href={item.url} className='hover:underline hover:underline-offset-2'>
-						<span className='mr-2'>Läs mer och handla</span>
+					<a
+						href={item.url}
+						target='_blank'
+						rel='noopener noreferrer'
+						className='hover:underline hover:underline-offset-2'>
+						<span className='mr-2 underline underline-offset-2'>Läs mer och handla</span>
 						<GoArrowRight className='inline-block' />
-					</Link>
+					</a>
 				</p>
 			</div>
 		</section>
