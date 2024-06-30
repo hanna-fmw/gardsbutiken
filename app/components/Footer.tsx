@@ -21,7 +21,7 @@ const Footer = () => {
 				<div className='mx-auto'>
 					<h2 className='font-medium text-xs md:text-base'>Adress</h2>
 					<div className='flex flex-col md:gap-2'>
-						<p className='text-[10px] mb-1 sm:text-xs'>AnnaMaria Silverdesign</p>
+						<p className='text-[10px] mb-1 sm:text-xs'>AM Design</p>
 						<p className='text-[10px] mb-1 sm:text-xs'>Gårdsbutiken, Stenegård</p>
 						<p className='text-[10px] mb-1 sm:text-xs'>827&nbsp;54&nbsp;Järvsö</p>
 					</div>
