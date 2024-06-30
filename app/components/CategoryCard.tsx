@@ -18,7 +18,7 @@ const CategoryCard = ({ category }: Props) => {
 	return (
 		<section
 			onClick={() => router.push(`/${category.name}`)}
-			className='cursor-pointer bg-white mt-2 md:w-[19vw] rounded-md mb-6 flex flex-col'>
+			className='cursor-pointer bg-white mt-2 md:w-[19vw] rounded-md md:mb-6 flex flex-col'>
 			<div className='relative'>
 				<Image
 					src={`/images/silver/${category.name}/${category.image}`}
@@ -30,16 +30,14 @@ const CategoryCard = ({ category }: Props) => {
 			</div>
 
 			<div className='px-2 flex-grow flex flex-col justify-between'>
-				<div>
-					<h2 className='font-lora my-1 text-sm font-medium'>
-						{category.name === 'orhangen'
-							? 'Örhängen'
-							: category.name.charAt(0).toUpperCase() + category.name.slice(1).toLowerCase()}
-					</h2>
+				<h2 className='font-lora my-2 text-sm font-medium'>
+					{category.name === 'orhangen'
+						? 'Örhängen'
+						: category.name.charAt(0).toUpperCase() + category.name.slice(1).toLowerCase()}
+				</h2>
 
-					<p className='text-xs text-gray-500'>{category.description}</p>
-				</div>
-				<p className='text-xs mt-2' onClick={() => router.push(`/${category.name}`)}>
+				<p className='text-xs'>{category.description}</p>
+				<p className='text-xs mt-1' onClick={() => router.push(`/${category.name}`)}>
 					<span className='mr-2 underline underline-offset-2'>Se urval</span>
 					<GoArrowRight className='inline-block' />
 				</p>
