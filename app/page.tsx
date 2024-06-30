@@ -21,7 +21,9 @@ const Home = () => {
 			</section>
 
 			<section className='mx-auto font-lora w-[70vw] lg:w-[60vw] lg:mb-20'>
-				<h2 className='font-medium text-base sm:text-xl md:text-xl'>Om Gårdsbutiken</h2>
+				<h2 className='font-medium text-base sm:text-xl md:text-xl'>
+					Om Gårdsbutiken på Stenegård
+				</h2>
 				<div>
 					<p className='text-xs sm:text-sm'>
 						Välkommen till Gårdsbutiken, en oas av kreativitet och skönhet belägen på Stenegård i
@@ -120,7 +122,8 @@ const Home = () => {
 			<section className='py-16 mb-16'>
 				<div className='mx-auto font-lora w-[70vw] lg:w-[80vw]'>
 					<h2 className='font-medium text-base sm:text-xl md:text-xl'>Ulla Jacobsson Design</h2>
-					<div className='grid grid-cols-2 gap-3'>
+
+					<div className='grid grid-cols-2 gap-4'>
 						<div>
 							<p className='text-xs sm:text-sm'>
 								På Gårdsbutiken är vi stolta över vårt samarbete med den välkända lokala designern
@@ -129,29 +132,21 @@ const Home = () => {
 								kollektion reflekterar hennes passion för kvalitet och estetik, vilket gör dem både
 								tidlösa och aktuella.
 							</p>
-
-							<p className='text-xs sm:text-sm'>
-								Ulla Jacobssons kollektioner erbjuder en unik mix av tradition och nytänkande, där
-								varje klädesplagg är noggrant designat för att passa olika stilar och tillfällen.
-								Hennes kläder är inte bara vackra att se på, utan också bekväma att bära, vilket gör
-								dem till favoriter i garderoben. Besök oss för att utforska hennes senaste
-								kollektion och hitta dina egna favoriter bland hennes skapelser.
-							</p>
 							<section className='w-full h-[8vh] text-sm flex items-center'>
 								<p
 									className='flex items-center text-sm gap-3 font-light'
 									style={{ transform: 'translateY(25%)' }}>
-									<Link href='/' className='hover:font-medium'>
+									{/* <Link href='/' className='hover:font-medium'>
 										www.ullajacobssondesign.se
 									</Link>{' '}
-									<span className='inline-block h-[6px] w-[6px] rounded-full bg-[#333]'></span>{' '}
+									<span className='inline-block h-[6px] w-[6px] rounded-full bg-[#333]'></span>{' '} */}
 									<Link href='mailto:ulla@ullajacobssondesign.se' className='hover:font-medium'>
 										ulla@ullajacobssondesign.se
 									</Link>
 								</p>
 							</section>
 						</div>
-						<div className='grid grid-cols-3 gap-1'>
+						<div className='w-[25vw] grid grid-cols-2 gap-4'>
 							<Image
 								src='/images/UJD/hero-fabric.jpg'
 								alt='profile'
@@ -159,36 +154,9 @@ const Home = () => {
 								height={200}
 								className='h-[28vh] rounded-md object-cover'
 							/>
-							<Image
-								src='/images/UJD/marimekko.jpg'
-								alt='profile'
-								width={200}
-								height={200}
-								className='h-[28vh] rounded-md object-cover'
-							/>
-							<Image
-								src='/images/UJD/red_tulips.jpg'
-								alt='profile'
-								width={200}
-								height={200}
-								className='h-[28vh] rounded-md object-cover'
-							/>
-							<Image
-								src='/images/UJD/raven.jpg'
-								alt='profile'
-								width={200}
-								height={200}
-								className='h-[28vh] rounded-md object-cover'
-							/>
+
 							<Image
 								src='/images/UJD/beige_shirt.jpg'
-								alt='profile'
-								width={200}
-								height={200}
-								className='h-[28vh] rounded-md object-cover'
-							/>
-							<Image
-								src='/images/UJD/bjorne.jpg'
 								alt='profile'
 								width={200}
 								height={200}
